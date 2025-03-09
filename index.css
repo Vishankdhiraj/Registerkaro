@@ -1,0 +1,1930 @@
+body{ 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:white;
+margin: 0px;
+padding: 0px;
+}
+@media(max-width:900px){
+    body{
+        width: 600px;
+        height: 600px;
+    }
+
+}
+@media(max-width:900px){
+    span img{
+        width: 100px;
+    }
+}
+.navbar{
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    box-shadow: 2px 2px 3px rgb(249, 152, 6);
+}
+@media(max-width:900px){
+    .navbar{
+        width: 600px;
+        height: 60px;
+    }
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    position: relative;
+    top: 10px;
+}
+@media(max-width:900px){
+    .links{
+        font-size: 10px;
+        position: absolute  ;
+        right: 350px;
+        bottom:100px ;
+        font-size: small;
+    }
+
+}
+.links li{
+    margin-left:20px ;  
+}
+
+.links li a{
+    color:black;
+    text-decoration: none;
+    font-size: medium;
+    padding-top: 10px;
+    padding: 8px 12px;
+    position: relative;
+    left: 200px;
+    border-radius: 4px;
+    transition: background-colour 0.3s;
+}
+@media(max-width:900px){
+    .links li a{
+        font-size: 12px;
+        position: relative;
+        top: 20px;
+        left: 230px;
+    }
+    
+}
+.links li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.links li img{
+    position: relative;
+    left: 200px;
+}
+@media(max-width:900px){
+    .links li img{
+        width: 20px;
+        position:relative ;
+        top:20px;
+        left: 240px;
+    }
+}
+
+.ex{
+    width: 120px;
+    height: 30px;
+    background-color:#ffa229;
+    position: relative;
+    right: 80px;
+    top: 5px;
+
+}
+@media(max-width:900px){
+    .ex{
+        width:100px;
+        position: relative;
+        left: 10px;
+    }
+}
+.ex a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    top: 5px;
+    left: 10px ;
+}
+@media(max-width:900px){
+    .ex a{
+        font-size: 15px;
+    }
+}
+
+.font{
+    width: 1535px;
+    height: 600px;
+    background-color:  #f3f9ff;
+}
+@media(max-width:900px){
+    .font{
+        width: 700px;
+    }
+}
+
+
+.font img{
+    width: 300px;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+@media(max-width:900px){
+    .font img{
+        width: 150px;
+        position: relative;
+        left: 10px;
+        top: 100px;
+    }
+}
+.font b{
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    font-size: 55px;
+}
+@media(max-width:900px){
+    .font b{
+        font-size: 15px;
+        position: absolute;
+        left: 10px;
+
+    }
+}
+.font p{
+    position: absolute;
+    top: 330px;
+    left: 100px;
+    font-size: 20px;
+    color:#ffa229;
+}
+@media(max-width:900px){
+    .font p{
+        position: relative;
+        top: 150px;
+        left: 10px;
+        font-size: 20px;
+    }
+
+}
+.two p{
+    position: absolute;
+    color: #737373;
+    bottom: 250px;
+    left: 100px;
+    font-size: 25px;
+}
+@media(max-width:900px){
+    .two p{
+        font-size: 12px;
+        top: 300px;
+        left: 10px;
+    }
+}
+.two b{
+    position: absolute;
+    color: #4f4f4f;
+    bottom: 275px;
+    left: 400px;
+    font-size: 20px;
+}
+@media(max-width:900px){
+    .two b{
+        font-size: 12px;
+        top: 325px;
+        left: 155px;
+    }
+}
+.two2 p{
+    position: absolute;
+    color: #737373;
+    bottom: 248px;
+    left: 630px;
+    font-size: 25px;
+}
+@media(max-width:900px){
+    .two2 p{
+        font-size: 12px;
+        position: absolute;
+        left: 293px;
+        top: 313px;
+    }
+}
+.two2 b{
+    position: absolute;
+    color: #4f4f4f;
+    bottom: 273px;
+    left: 737px;
+    font-size: 20px;
+}
+@media(max-width:900px){
+    .two2 b{
+        position: absolute;
+        left: 10px;
+        font-size: 12px;
+        top: 340px;
+    }
+}
+.two3 b{
+    position: absolute;
+    color: #4f4f4f;
+    bottom: 250px;
+    left: 100px;
+    font-size: 20px;
+}
+@media(max-width:900px){
+    .two3 b{
+        position: absolute;
+        left: 40px;
+        font-size: 12px;
+        top: 340px;
+    }
+}
+.menu img{
+    position: absolute;
+    bottom: 160px;
+    left: 100px;
+    width: 60px;
+    
+}
+@media(max-width:900px){
+    .menu img{
+        width: 30px;
+        position: absolute;
+        left: 10px;
+        top: 390px;
+    }
+}
+
+.four img{
+    position: absolute;
+    bottom: 188px;
+    left: 170px;
+    width: 50px;
+}
+@media(max-width:900px){
+    .four img{
+        width: 30px;
+        position: absolute;
+        left: 50px;
+        top: 390px;
+    }
+}
+
+.five p{
+    position: absolute;
+    bottom: 150px;
+    left: 170px;
+    color: #737373;
+}
+@media(max-width:900px){
+    .five p{
+        position: absolute;
+        left: 50px;
+        font-size: 12px;
+        top: 395px;
+    }
+}
+
+.six img{
+    position: absolute;
+    bottom: 150px;
+    left: 350px;
+    width: 60px;
+}
+@media(max-width:900px){
+    .six img{
+        width: 35px;
+        position: absolute;
+        left: 10px;
+        top: 450px;
+    }
+}
+.seven img{
+    position: absolute;
+    bottom: 188px;
+    left: 450px;
+    width: 90px;
+}
+@media(max-width:900px){
+    .seven img{
+        width: 60px;
+        position: absolute;
+        left: 45px;
+        top: 447px;
+    }
+}
+.seven p{
+    position: absolute;
+    bottom: 145px;
+    left: 450px;
+    color: #737373;
+}
+@media(max-width:900px){
+    .seven p{
+        position: absolute;
+        font-size: 12px;
+        left: 50px;
+        top: 459px;
+    }
+}
+.eight img{
+    position: absolute;
+    bottom: 155px;
+    left: 590px;
+    width: 90px;
+}
+@media(max-width:900px){
+    .eight img{
+        width: 50px;
+        position: absolute;
+        left: 05px;
+        top: 530px;
+    }
+}
+.nine img{
+    position: absolute;
+    bottom: 188px;
+    left: 700px;
+    width: 90px;
+}
+@media(max-width:900px){
+    .nine img{
+        width: 40px;
+        position: absolute;
+        left: 60px;
+        top: 520px;
+    }
+}
+.nine p{
+    position: absolute;
+    bottom: 145px;
+    left: 700px;
+    color: #737373;
+}
+@media(max-width:900px){
+    .nine p{
+        font-size: 12px;
+        position: absolute;
+        left: 60px;
+        top: 530px;
+    }
+}
+.pic img{
+    height: 520px;
+    position: absolute;
+    bottom: 60px;
+    left: 940px;
+}
+@media(max-width:900px){
+    .pic img{
+        width: 320px;
+        height: 450px;
+        position: absolute;
+        left: 380px;
+        top: 150px;
+    }
+}
+.ex2{
+    width: 120px;
+    height: 40px;
+    background-color:#164670;
+   position: absolute;
+   bottom: 80px;
+   left: 100px;
+
+}
+@media(max-width:900px){
+    .ex2{
+        width: 100px;
+        height: 20px;
+        background-color:#164670;
+       position: absolute;
+       top: 600px;
+       left: 05px
+    
+    }
+}
+.ex2 a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    top: 7px;
+    left: 10px ;
+}
+@media(max-width:900px){
+    .ex2 a{
+        font-size: 12px;
+        position: absolute;
+        top: 3px;
+    }
+}
+.see img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 300px;
+    bottom: 80px;
+}
+@media(max-width:900px){
+    .see img{
+        position: absolute;
+        top: 595px;
+        left: 150px;
+    }
+}
+.see a{
+
+    position: absolute;
+    left: 345px;
+    bottom: 85px;
+    text-decoration: none;
+    color: black;
+}
+@media(max-width:900px){
+    .see a{
+        font-size: 12px;
+        position: absolute;
+        top: 603px;
+        left: 190px;
+    }
+}
+.logo img{
+    width: 1500px;
+    position: relative;
+    top: 70px;
+}
+@media(max-width:900px){
+    .logo img{
+        width: 600px;
+        position: relative;
+        top: 50px;
+    }
+}
+.logo b{
+    position: absolute;
+    font-size: 23px;
+    top: 700px;
+    left: 500px;
+}
+@media(max-width:900px){
+    .logo b{
+        position: absolute;
+        font-size: 12px;
+        left: 100px;
+    
+    
+    }
+}
+.second{
+    width: 1560px;
+    height: 1000px;
+    background-color: #f3f9ff;
+    position: relative;
+    left: 00px;
+    top:50px ;
+}
+
+@media(max-width:900px){
+    .second{
+        width: 800px;
+        height: 800px;
+    }
+}
+
+.tog{
+    color: #ffa229;
+    position: relative;
+    left: 730px;
+}
+
+@media(max-width:900px){
+    .tog {
+        font: 1px;
+        position: relative;
+        left: 100px;
+    }
+}
+.tog b{
+    font-size: 40px;
+    position: relative;
+    right: 90px;
+    color: black;
+}
+@media(max-width:900px){
+    .tog b{
+        position: relative;
+        left: 25px;
+        font-size: 20px;
+    }
+}
+.tog2{
+    width: 600px;
+    height: 400px;
+    background-color: #f3f9ff;
+    position: relative;
+    left: 00px;
+    box-shadow: 2px 2px 2px rgb(6, 6, 6);
+}
+@media(max-width:900px){
+    .tog2{
+        width: 300px;
+        height: 200px;
+    }
+}
+.tog2 img{
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+@media(max-width:900px){
+    .tog2 img{
+        width: 40px;
+        position: absolute;
+        left: 100px;
+        top: 20px;
+    
+    
+    }
+}
+.tog2 b{
+    position: relative;
+    top: 90px;
+    font-size: 20px;
+    left: 130px;
+}
+@media(max-width:900px){
+    .tog2 b{
+        font-size: 14px;
+        position: absolute;
+        left: 50px;
+        top: 70px;
+    
+    
+    }
+}
+.tog2 p{
+    position: relative;
+    top: 90px;
+    left: 190px;
+    font-size: 18px;
+}
+@media(max-width:900px){
+    .tog2 p{
+        font-size: 14px;
+        position: absolute;
+        left: 50px;
+        top: 80px;
+    
+    
+    }
+}
+
+.learn a{
+    text-decoration: none;
+    position: relative;
+     bottom: 120px;
+     left: 250px;
+    color: black;
+}
+@media(max-width:900px){
+    .learn a{
+        font-size: 14px;
+        position: absolute;
+        left: 50px;
+        top: 200px;
+    
+    
+    }
+}
+.learn img{
+    width: 25px;
+    position: relative;
+    bottom: 115px;
+    left: 260px;
+}
+@media(max-width:900px){
+    .learn img{
+        font-size: 14px;
+        position: absolute;
+        left: 140px;
+        top: 200px;
+    
+    
+    }
+}
+.tog3{
+    width: 500px;
+    height: 400px;
+    background-color: #f3f9ff;
+    position: relative;
+    bottom: 425px;
+    left: 605px;
+    box-shadow: 2px 2px 2px rgb(6, 6, 6);
+}
+@media(max-width:900px){
+    .tog3{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 60px;
+        left: 310px;
+    }
+}
+.tog3 img{
+    position: relative;
+    top: 40px;
+    left: 180px;
+}
+@media(max-width:900px){
+    .tog3 img{
+        width: 40px;
+        position: absolute;
+        top: 20px;
+        left: 120px;
+    }
+}
+.tog3 b{
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+    right: 0px;
+}
+@media(max-width:900px){
+    .tog3 b{
+        font-size: 12px;
+        position: absolute;
+        left: 70px;
+    }
+}
+.tog3 p{
+    position: relative;
+    top: 70px;
+    left: 100px;
+    font-size: 18px;
+}
+@media(max-width:900px){
+    .tog3 p{
+        font-size: 12px;
+        position: absolute;
+        top: 80px;
+        left: 70px;
+    }
+}
+.learn1{
+    position: absolute;
+}
+.learn1 a{
+    text-decoration: none;
+    position: relative;
+    bottom: 550px;
+     left: 740px;
+    color: black;
+}
+@media(max-width:900px){
+    .learn1 a{
+        font-size: 14px;
+        position: relative;
+        bottom: 65px;
+        left: 390px;
+    }
+}
+
+.learn1  img{
+    width: 25px;
+    position: relative;
+    bottom: 545px;
+    left: 760px;
+}
+@media(max-width:900px){
+    .learn1 img{
+
+        position: relative;
+        bottom: 60px;
+        left: 400px;
+    }
+}
+.tog4{
+    width: 450px;
+    height: 400px;
+    background-color: #f3f9ff;
+    position: relative;
+    bottom: 825px;
+    left: 1108px;
+    box-shadow: 2px 2px 2px rgb(6, 6, 6);
+}
+ @media(max-width:900px){
+        .tog4{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 270px;
+            left: 0px;
+        }
+    }
+    
+.tog4 img{
+    position: relative;
+    top: 50px;
+    left: 180px;
+}
+@media(max-width:900px){
+    .tog4 img{
+        width: 40px;
+        position: absolute;
+        top: 20px;
+        left: 100px;
+    }
+}
+.tog4 b{
+    position: relative;
+    top: 90px;
+    left: 50px;
+    font-size: 20px;
+    right: 0px;
+}
+@media(max-width:900px){
+    .tog4 b{
+        font-size: 12px;
+        position: absolute;
+        top: 70px;
+        left: 70px;
+    
+    }
+}
+.tog4 p{
+    position: relative;
+    top: 90px;
+    left: 110px;
+    font-size: 18px;
+}
+@media(max-width:900px){
+    .tog4 p{
+        font-size: 12px;
+        position: absolute;
+        left: 60px;
+        top: 75px;
+    }
+}
+.learn3{
+    position: absolute;
+}
+.learn3 a{
+    text-decoration: none;
+    position: relative;
+    bottom: 950px;
+     left: 1260px;
+    color: black;
+}
+@media(max-width:900px){
+    .learn3 a{
+        font-size: 14px;
+        position: relative;
+        top: 135px;
+        left: 80px;
+    }
+}
+.learn3  img{
+    width: 25px;
+    position: relative;
+    bottom: 945px;
+    left: 1280px;
+}
+@media(max-width:900px){
+    .learn3 img{
+        position: relative;
+        top: 140px;
+        left: 100px;
+    }
+}
+
+.tog5{
+    width: 600px;
+    height: 400px;
+    background-color: #f3f9ff;
+    position: relative;
+    bottom: 815px;
+    left: 00px;
+    box-shadow: 2px 2px 2px rgb(6, 6, 6);
+}
+@media(max-width:900px){
+    .tog5{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 270px;
+        left: 310px;
+    }
+}
+.tog5 img{
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+@media(max-width:900px){
+    .tog5 img{
+        width: 50px;
+        position: relative;
+        left: 110px;
+        top: 20px;
+    }
+}
+.tog5 b{
+    position: relative;
+    top: 90px;
+    left: 70px;
+    font-size: 20px;
+    right: 0px;
+}
+@media(max-width:900px){
+    .tog5 b{
+        font-size: 12px;
+        position: relative;
+        top: 40px;
+        left: 30px;
+    
+    }
+}
+.tog5 p{
+    position: relative;
+    top: 90px;
+    left: 150px;
+    font-size: 18px;
+}
+@media(max-width:900px){
+    .tog5 p{
+        font-size: 12px;
+        position: relative;
+        top: 30px;
+        left: 50px;
+    
+    }
+}
+.learn4{
+    position: absolute;
+}
+.learn4 a{
+    text-decoration: none;
+    position: relative;
+    top: 100px;
+     left: 190px;
+    color: black;
+}
+@media(max-width:900px){
+    .learn4 a{
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 70px;
+    
+    }
+}
+.learn4  img{
+    width: 25px;
+    position: relative;
+    top: 105px;
+    left: 200px;
+}
+@media(max-width:900px){
+    .learn4 img{
+        position: relative;
+        top: 35px;
+        left: 80px;
+    
+    }
+}
+.tog6{
+    width: 500px;
+    height: 400px;
+    background-color: #f3f9ff;
+    position: relative;
+    bottom: 154px;
+    left: 605px;
+    box-shadow: 2px 2px 2px rgb(6, 6, 6);
+}
+@media(max-width:900px){
+    .tog6 {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        top: 110px;
+        left: 0px;
+    }
+}
+.tog6 img{
+    position: relative;
+    width: 70px;
+    top: 40px;
+    left: 200px;
+}
+@media(max-width:900px){
+    .tog6 img{
+        width: 40px;
+        position: relative;
+        top: 30px;
+        left: 120px;
+    }
+}
+
+.tog6 b{
+    position: relative;
+    top: 80px;
+    left: 100px;
+    font-size: 20px;
+    right: 0px;
+}
+@media(max-width:900px){
+    .tog6 b{
+        font-size: 12px;
+        position: relative;
+        top: 60px;
+        left: 60px;
+    }
+}
+.tog6 p{
+    position: relative;
+    top: 80px;
+    left: 120px;
+    font-size: 18px;
+}
+@media(max-width:900px){
+    .tog6 p{
+        font-size: 12px;
+        position: relative;
+        top: 50px;
+        left: 60px;
+    }
+}
+.learn5{
+    position: absolute;
+}
+.learn5 a{
+    text-decoration: none;
+    position: relative;
+    bottom: 960px ;
+     left: 750px;
+    color: black;
+}
+@media(max-width:900px){
+    .learn5 a{
+        font-size: 14px;
+        position: relative;
+        top: 360px;
+        left: 400px;
+    }
+}
+.learn5 img{
+    width: 25px;
+    position: absolute;
+    bottom: 960px;
+    left: 850px;
+}
+@media(max-width:900px){
+    .learn5 img{
+        font-size: 14px;
+        position: relative;
+        top: 365px;
+        left: 420px;
+    }
+}
+.tog7{
+    width: 450px;
+    height: 400px;
+    background-color: #f3f9ff;
+    position: relative;
+    bottom: 1213px;
+    left: 1108px;
+    box-shadow: 2px 2px 2px rgb(6, 6, 6);
+}
+@media(max-width:900px){
+    .tog7{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 475px;
+        left: 0px;
+    }
+}
+.tog7 img{
+    position: relative;
+    top: 50px;
+    left: 180px;
+}
+@media(max-width:900px){
+    .tog7 img {
+        width: 50px;
+        position: absolute;
+        top: 30px;
+        left: 100px;
+    }
+}
+.tog7 b{
+    position: relative;
+    top: 90px;
+    left: 30px;
+    font-size: 20px;
+    right: 0px;
+}
+@media(max-width:900px){
+    .tog7 b {
+        font-size: 12px;
+        position: absolute;
+        top: 80px;
+        left: 70px;
+    }
+}
+.tog7 p{
+    position: relative;
+    top: 90px;
+    left: 110px;
+    font-size: 18px;
+}
+@media(max-width:900px){
+    .tog7 p {
+        font-size: 12px;
+        position: absolute;
+        top: 90px;
+        left: 70px;
+    }
+}
+.learn6{
+    position: absolute;
+}
+.learn6 a{
+    text-decoration: none;
+    position: relative;
+    bottom: 205px;
+     left: 1260px;
+    color: black;
+}
+@media(max-width:900px){
+    .learn6 a {
+        font-size: 14px;
+        position: relative;
+        bottom: 130px;
+        left: 80px;
+    }
+}
+.learn6  img{
+    width: 25px;
+    position: relative;
+    bottom: 200px;
+    left: 1280px;
+}
+@media(max-width:900px){
+    .learn6 img {
+        font-size: 14px;
+        position: relative;
+        bottom: 125px;
+        left: 90px;
+    }
+}
+.all{
+    width: 120px;
+    height: 30px;
+    background-color:#164670;
+    position: relative;
+    left: 750px;
+    top: 5px;
+
+}
+@media(max-width:900px){
+    .all {
+        width: 100px;
+        position: absolute;
+        left: 250px;
+        top: 1520px;
+    }
+}
+.all a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    top: 5px;
+    left: 10px ;
+}
+@media(max-width:900px){
+    .all a {
+        font-size: 12px;
+    }
+}
+.third{
+    width: 1580px;
+    height: 500px;
+    background-color: white;
+}
+@media(max-width:900px){
+    .third{
+        width: 800px;
+    }
+
+
+}
+.third p{
+    color: #ffa229;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+@media(max-width:900px){
+    .third p{
+        font-size: 12px;
+        left: 10px;
+    }
+}
+
+.third b{
+    font-size: 35px ;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+@media(max-width:900px){
+    .third b{
+        font-size: 20px;
+        left: 10px;
+        top: 63px;
+    }
+}
+.bolt b{
+        font-size: 35px ;
+        position: relative;
+        bottom: 412px;
+        left: 215px;
+        color: #ffa229;
+}
+@media(max-width:900px){
+    .bolt b{
+        font-size: 20px;
+        left: 78px;
+
+    }
+}
+.bolt p{
+    position: relative;
+    color: black;
+    font-size: 22px;
+    bottom: 410px;
+    left: 100px;
+}
+@media(max-width:900px){
+    .bolt p{
+        font-size: 13px;
+        left: 10px;
+    }
+}
+.bolt2 p{
+    position: relative;
+    color: black;
+    font-size: 22px;
+    left: 100px;
+    bottom: 400px;
+}
+@media(max-width:900px){
+    .bolt2 p{
+        font-size: 13px;
+        left: 10px;
+    }
+}
+.bol img{
+    width: 600px;
+    position: relative;
+    bottom: 780px;
+    left:950px;
+}@media(max-width:900px){
+    .bol img{
+     width: 350px;   
+     position: absolute;
+     top: 1650px;
+     left: 450px;
+    }
+}
+
+.learn7{
+    width: 150px;
+    height: 40px;
+    background-color: #164670;
+    position: relative;
+    bottom: 800px;
+    border-radius: 5px;
+    left: 100px;
+}
+@media(max-width:900px){
+    .learn7{
+        font-size: 13px;
+        position: absolute;
+        top: 1850px;
+        left: 10px;
+    }
+}
+
+.learn7 a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+.learn7 img{
+    position: absolute;
+    top: 5px;
+    width: 30px;
+    left: 100px;
+}
+.learn7:hover{
+    background-color: #737373;
+}
+.leaf p{
+    color: #ffa229;
+    position: relative;
+    bottom: 600px;
+    left: 100px;
+}
+@media(max-width:900px){
+    .leaf p{
+        font-size: 15px;
+        position: absolute;
+        left: 10px;
+        top: 1950px;
+    }
+}
+.leaf2 b{
+    font-size: 35px;
+    color: black;
+    position: relative;
+    bottom: 590px;
+    left: 100px;
+}
+@media(max-width:900px){
+    .leaf2 b{
+        font-size: 18px;
+        position: absolute;
+        top: 2000px;
+        left:10px;
+    }
+}
+.leaf2 p{
+    font-size: 22px;
+    color: black;
+
+}
+@media(max-width:900px){
+    .leaf2 p{
+        font-size: 15px;
+        position: absolute;
+        top: 2020px;
+        left: 10px;
+    }
+}
+
+.shield{
+    width: 300px;
+    height: 200px;
+    background-color: #FEF3EF;
+    box-shadow: 2px 2px 2px rgb(252, 145, 6);
+    position: relative;
+    bottom: 750px;
+    border: 2px #ffa229;
+    left: 900px;
+    border-radius: 5px;
+    transition: transform 0.8s;
+}
+@media(max-width:900px){
+    .shield{
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 2100px;
+        left: 20px;
+    }
+    }
+.shield img{
+    width: 60px;
+    position: relative;
+    top: 30px;
+    left: 120px;
+}
+@media(max-width:900px){
+    .shield img{
+        width: 30px;
+        top: 6px;
+        left: 80px;
+    }
+    }
+
+.shield b{
+    font-size: 17px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+@media(max-width:900px){
+    .shield b{
+        font-size: 12px;
+        top: 20px;
+
+    }
+    }
+.shield p{
+    font-size: 14px;
+    position: relative;
+    color: black;
+    top: 60px;
+    left: 50px;
+}
+@media(max-width:900px){
+    .shield p{
+        font-size: 10px;
+        top: 20px;
+        left: 20px;
+
+    }
+    }
+.shield:hover{
+    transform: scale(1.5);
+}
+.mark{
+    width: 300px;
+    height: 200px;
+    background-color: #F1FBF3;
+    box-shadow: 2px 2px 2px rgb(36, 80, 0);
+    position: relative;
+    bottom: 950px;
+    border: 2px #ffa229;
+    left: 1220px;
+    border-radius: 5px;
+    transition: transform 0.8s;
+}
+@media(max-width:900px){
+    .mark{
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 2100px;
+        left: 250px;
+    }
+    }
+.mark img{
+    width: 60px;
+    position: relative;
+    top: 30px;
+    left: 120px;
+}
+@media(max-width:900px){
+    .mark img{
+        width: 30px;
+        top: 6px;
+        left: 80px;
+    }
+    }
+
+.mark b{
+    font-size: 17px;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+@media(max-width:900px){
+    .mark b{
+        font-size: 12px;
+        top: 20px;
+        left: 20px;
+
+    }
+    }
+.mark p{
+    font-size: 14px;
+    position: relative;
+    color: black;
+    top: 50px;
+    left: 50px;
+}
+@media(max-width:900px){
+    .mark p{
+        font-size: 10px;
+        top: 20px;
+        left: 20px;
+
+    }
+    }
+.mark:hover{
+    transform: scale(1.5);
+}
+.smile{
+    width: 300px;
+    height: 200px;
+    background-color: #EDF3FF;
+    box-shadow: 2px 2px 2px rgb(66, 75, 122);
+    position: relative;
+    bottom: 920px;
+    border: 2px #ffa229;
+    left: 550px;
+    border-radius: 5px;
+    transition: transform 0.8s;
+}
+@media(max-width:900px){
+    .smile{
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 2100px;
+        left: 470px;
+    }
+    }
+.smile img{
+    width: 60px;
+    position: relative;
+    top: 30px;
+    left: 120px;
+}
+@media(max-width:900px){
+    .smile img{
+        width: 30px;
+        top: 6px;
+        left: 80px;
+    }
+    }
+.smile b{
+    font-size: 17px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+@media(max-width:900px){
+    .smile b{
+        font-size: 12px;
+        top: 20px;
+        left: 10px;
+
+    }
+    }
+
+.smile p{
+    font-size: 14px;
+    position: relative;
+    color: black;
+    top: 50px;
+    left: 70px;
+}
+@media(max-width:900px){
+    .smile p{
+        font-size: 10px;
+        top: 20px;
+        left: 20px;
+
+    }
+    }
+.smile:hover{
+    transform: scale(1.5);
+}
+.ca{
+    width: 300px;
+    height: 200px;
+    background-color: #FBF1FB;
+    box-shadow: 2px 2px 2px rgb(244, 106, 106);
+    position: relative;
+    bottom: 1120px;
+    border: 2px #ffa229;
+    left: 900px;
+    border-radius: 5px;
+    transition: transform 0.8s;
+}
+@media(max-width:900px){
+    .ca{
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 2250px;
+        left: 100px;
+    }
+    }
+.ca img{
+    width: 60px;
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+@media(max-width:900px){
+    .ca img{
+        width: 30px;
+        top: 6px;
+        left: 80px;
+    }
+    }
+.ca b{
+    font-size: 17px;
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+@media(max-width:900px){
+    .ca b{
+        font-size: 12px;
+        top: 20px;
+        left: 10px;
+
+    }
+    }
+.ca p{
+    font-size: 14px;
+    position: relative;
+    color: black;
+    top: 50px;
+    left: 60px;
+}
+@media(max-width:900px){
+    .ca p{
+        font-size: 10px;
+        top: 20px;
+        left: 20px;
+
+    }
+    }
+.ca:hover{
+    transform: scale(1.5);
+}
+.shield2{
+    width: 300px;
+    height: 200px;
+    background-color: #F7FCF9;
+    box-shadow: 2px 2px 2px rgb(223, 223, 222);
+    position: relative;
+    bottom: 1315px;
+    border: 2px #ffa229;
+    left: 1220px;
+    border-radius: 5px;
+    transition: transform 0.8s;
+}
+@media(max-width:900px){
+    .shield2{
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 2250px;
+        left: 350px;
+    }
+    }
+.shield2 img{
+    width: 60px;
+    position: relative;
+    top: 30px;
+    left: 120px;
+}
+@media(max-width:900px){
+    .shield2 img{
+        width: 30px;
+        top: 6px;
+        left: 80px;
+    }
+    }
+.shield2 b{
+    font-size: 17px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+@media(max-width:900px){
+    .shield2 b{
+        font-size: 12px;
+        top: 20px;
+        left: 10px;
+
+    }
+    }
+.shield2 p{
+    font-size: 14px;
+    position: relative;
+    color: black;
+    top: 60px;
+    left: 50px;
+}
+@media(max-width:900px){
+    .shield2 p{
+        font-size: 10px;
+        top: 20px;
+        left: 20px;
+
+    }
+    }
+.shield2:hover{
+    transform: scale(1.5);
+}
+.intro{
+    width: 1600px;
+    height: 600px;
+    background-color: #164670;
+    position: relative;
+    bottom: 1200px;
+}
+@media(max-width:900px){
+    .intro{
+        width: 800px;
+        height: 900px;
+        position: relative;
+        top: 200px;
+    }
+}
+.intro b{
+    font-size: 35px;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+@media(max-width:900px){
+    .intro b{
+        font-size: 19px;
+        left: 20px;
+    }
+}
+
+.intro p{
+    font-size: 22px;
+    color: #8295B2;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+@media(max-width:900px){
+    .intro p{
+        font-size: 15px;
+        left: 20px;
+    }
+}
+.light{
+    position: relative;
+    bottom: 1430px;
+    right: 130px;
+}
+.light img{
+    width: 70px;   
+    position: relative;
+    bottom: 120px ;
+    left: 150px;
+}
+@media(max-width:900px){
+    .light img{
+        position: absolute;
+        top: 900px;
+        width: 60px;
+    }
+    }
+.light b{
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+    bottom: 150px;
+    color: white;
+}
+@media(max-width:900px){
+    .light b{
+        position: absolute;
+        top: 900px;
+        left: 210px;
+        font-size: 18px;
+    }
+    }
+.light p{
+    color: #8295B2;
+    position: absolute;
+    bottom: 80px;
+    left: 215px;
+}
+@media(max-width:900px){
+    .light p{
+        position: absolute;
+        top: 920px;
+        left: 210px;
+        font-size: 15px;
+    }
+    }
+.tower img{
+    width: 60px;   
+    position: relative;
+    bottom: 1500px ;
+    left: 20px;
+}
+@media(max-width:900px){
+    .tower img{
+        position: absolute;
+        top: 2740px;
+
+    }
+    }
+.tower b{
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    bottom: 1524px;
+    color: white;
+}
+
+.tower2 p{
+    color: #8295B2;
+    font-size: 16px;
+    position: absolute;
+    top: 3500px;
+    left: 90px;
+}
+@media(max-width:900px){
+    .tower2 p{
+        position: absolute;
+        top: 2760px;
+        left: 90px;
+        font-size: 18px;
+
+    }
+    }
+@media(max-width:900px){
+    .tower b{
+        position: absolute;
+        top: 2740px;
+        left: 90px;
+        font-size: 18px;
+
+    }
+    }
+.youtube img{
+    width: 800px;
+    position: absolute;
+    top: 3128px;
+    left: 700px;
+}
+@media(max-width:900px){
+    .youtube img{
+        position: absolute;
+        top: 2940px;
+        left: 10px;
+        width: 600px;
+
+    }
+    }
+.app {
+    width: 1560px;
+    height: 800px;
+    background-color: #EDF3FF;
+    position: relative;
+    bottom: 1330px;
+
+}
+@media(max-width:900px){
+    .app{
+        position: absolute;
+        top: 3350px;
+        width: 800px;
+    }
+    }
+
+.app b{
+    position: relative;
+    left: 700px;
+    top: 50px;
+    font-size: 35px;
+}
+@media(max-width:900px){
+    .app b{
+        left: 200px;
+        font-size: 20px;
+        top: 80px;
+        
+    }
+    }
+.app p{
+    color: #737373;
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+@media(max-width:900px){
+    .app p{
+        top: 100px;
+        left: 20px;
+        font-size: 15px;
+        
+    }
+    }
+.app img{
+    width: 1560px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+@media(max-width:900px){
+    .app img{
+         width: 800px;
+         height: 400px;
+    }
+    }
+
+.app a{
+    position: relative;
+    top: 600px;
+    left: 690px;
+    text-decoration: none;
+    color: #164670;
+}
+@media(max-width:900px){
+    .app a{
+        left: 300px;
+        font-size: 15px;
+        
+    }
+    }
+.fyn{
+    width: 1600px;
+    height: 200px;
+    background-color: #ffa229;
+    position: relative;
+    bottom: 1350px;
+}
+@media(max-width:900px){
+    .fyn{
+        width: 800px;
+        position: absolute;
+        top: 4100px;
+    }
+    }
+
+.bn img{
+    width: 40px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+@media(max-width:900px){
+    .bn img{
+        width:10px;
+        left: 10px;
+        font-size: 15px; 
+    }
+    }
+.bn a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 70px;
+    left: 65px;
+}
+@media(max-width:900px){
+    .bn a{
+        left: 1px;
+        font-size: 11px; 
+    }
+    }
+.mess img{
+    width: 40px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+}
+.mess a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 49px;
+    left: 470px;
+}
+.care img{
+    width: 40px;
+    position: relative;
+    top: 15px;
+    left: 750px;
+}
+.care a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: px;
+    left: 780px;
+}
+.message img{
+    width: 40px;
+    position: relative;
+    bottom: 30px;
+    left: 1150px;
+}
+.message a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 40px;
+    left: 1180px;
+}
+
+
+
+
+
+
+
